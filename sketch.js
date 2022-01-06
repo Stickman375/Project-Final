@@ -241,17 +241,17 @@ if(keyDown("space")&&player.isTouching(treeGroup)){
 
 
 if(keyDown("DOWN_ARROW")){
-    player.y +=115
+    player.y +=5
    
   }if(keyDown("UP_ARROW")){
-    player.y -=115
+    player.y -=5
    
   }if(keyDown("LEFT_ARROW")){
-    player.x -=115
+    player.x -=5
     player.changeAnimation("left",playerLeft);
     
   }if(keyDown("RIGHT_ARROW")){
-    player.x +=115
+    player.x +=5
     player.changeAnimation("walk",playerimg);
     
   }
